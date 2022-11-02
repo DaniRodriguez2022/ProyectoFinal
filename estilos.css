@@ -1,0 +1,43 @@
+
+.card {
+    display: flex;
+    justify-content: flex-start;
+    margin: 1rem;
+    padding: 1.5rem;
+    position: relative;
+    align-content: normal;
+    border-width: 0.5rem;
+    border-style:groove;
+    border-color: #ffbe0bff;
+    
+}
+
+.colorBoton {
+    color: white;
+    background-color: #ff006eff;
+
+}
+
+.colorBoton:hover {
+    background-color: #8338ecff;
+    color: white;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    width: 5rem;
+   
+
+
+}
+
+.tarjeta {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.card-text {
+    align-items: center;
+}
+ 
